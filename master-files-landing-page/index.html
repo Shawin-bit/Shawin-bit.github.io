@@ -9,10 +9,13 @@
     <title>Landing page</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body class="container" id="container">
+   <div class="nav">
     <nav> 
         <img src="./images/logo/logo.png" alt="D logo" >
     </nav>
+   </div>
 <div class="header-main" id="mainbox">
     <h1>Want to be your own boss?</h1>
     <p>Start today and make up to $30/hr driving your own vehicle with Dash!</p>
@@ -60,13 +63,17 @@
         
             <form class="footer-form">
                 <div class="text-confirm" id="text-confirm">
-                    <input type="text" name="hours" placeholder="Hours" id="hours"><br>
-                    <input type="text" name="city" placeholder="City" id="city"><br>
-                    <button class="submit" id="submit"> Calculate</button>
-                </div>    
-             </form>
-        
+                    <div class="hours" id="hours">
+                       <input type="text" name="hours" placeholder="Hours"><br>
+                    </div class="city" id="city">
+                        <input type="text" name="city" placeholder="City"><br>
+                    </div>
                 
+                    <div class="submit" id="submit">
+                        <label> Calculate</label>
+                    </div>
+                </div>    
+            </form>       
         </div>
         <div class="social-media" id="socials">
             <img src="./images/icons/facebook.svg" alt="Facebook logo" class="logo">
