@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    max-width: 1440px;
+}
+
+/* STYLE NAV BAR */
+
+nav {
+    background-color: #3f3f3f;
+    display: flex;
+    color: #ececec;
+    text-decoration: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    align-items: center;
+    margin-left: auto;
+    padding: 10px 20px 0px 20px;
+    margin-bottom: 0px;
+  }
+  
+  li {
+    float: right;
+
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+/* STYLING MAIN */
+
+.head h1 {
+    color: #076193;
+    margin: 25px 25px;
+}
+.paragraph {
+    margin: 10px 25px;
+}
+
+/* Promo boxes! */
+.container {
+    display: flex;
+    flex-direction: row;
+  }
+  .block {
+    display: flex;
+    flex-direction: column;  
+    background-color: #e0e0e0;
+    border: 1px solid rgb(46, 46, 46);
+    width: 250px;
+    height: 400px;
+    margin: 25px 25px 20px;
+    
+  }
+  .block h3 {
+    color: #ececec;
+    font-weight: 900;
+    text-align: center;
+    border: 1px solid #3f3f3f;
+    padding: 25px;
+    box-shadow: 4px 5px 5px #3f3f3f;
+  }
+  .block p {
+      text-align: center;
+      color: #ececec;
+  }
+
+.box-one {
+    background-color: #076193;
+}
+.box-two {
+    background-color: #0392d6;
+}
+.box-three {
+    background-color: #73c7eb;
+}
+/* info area */
+.info h2 {
+    color: #076193;
+    margin: 25px 25px;
+}
+
+/* contact form */ 
+.form {
+    background-color: #3f3f3f;
+    color: #e0e0e0;
+}
+.form h3 {
+    padding-top: 50px;
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+
+form {
+    padding-left: 50px;
+    padding-top: 0px;
+    padding-bottom: 25px;
+    
+}
+.input {
+    margin-top: 25px;
+    width: 250px;
+}
+
+.msg{
+    width: 250px;
+    height: 100px;
+}
+.copy {
+    margin-top: 25px;
+}
+  /* footer */
+
+  footer {
+    background-color: #3f3f3f;
+  }
+  .footertext {
+    line-height: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 1px;
+    height: 250px;
+  }
+  
+  footer p {
+    text-align: center;
+    color: #e0e0e0;
+  }
+  .cp {
+    padding-bottom: 25px;
+  }
+  
