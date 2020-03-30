@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
+    <title>Bootstrap-this</title>
+</head>
+<body>
+    <!--NAV BAR-->
+    <div class="nav">
+        <div class="toggle">
+            <i class="fa fa-bars menu" aria-hidden="true"></i>
+        </div>
+        <ul>
+            <li>
+                <a href="#header">home</a>
+                <a href="#about">About me</a>
+                <a href="#work">My work</a>
+                <a href="#contact">Contact me</a>
+            </li>
+        </ul>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        let menu = document.querySelector('.menu')
+        menu.addEventListener('click', (e) => {
+          document.querySelector('ul').classList.toggle('active');
+        })
+      </script>
+    </script>
+    </div>
+    <!--HEADER WELCOME TEXT-->
+    <div class="platform row header" id="header">
+        <div class="media">
+            <img class="logo align-self-center mr-3" src="./images/logo-skwesh.png" alt="">
+            <div class="media-body head-text">
+                <h1 class="display-1 headline">Skwesh's Website</h1>
+                <h2>Featuring my Work!</h2>
+            </div>
+        </div>
+
+    </div>
+   <!--MAIN AND ABOUT ME SECTION-->
+    <div class="main platform row ">
+        <div class="about col-md-8">
+            <h4 class="about-me-header" id="about">About Me</h4>
+            <p class="about-me">Hello, my name is Shawin, but I like to use my online alias name when designing random things. My Alias name is Skwesh or Skweshy. I’m a multi-media Designer who is currently enrolled in Interactive Media Design at Algonquin College.
+                My Passion is Design and computers! The course I’m in, is prefect for my career goals.
+                My goals in this field is to one day own a Design Company, providing people with graphic design, web development, and App Design. A personal Goal is to create an education app for specifically Cree Students to use, the purpose of this app would be to make learning Cree fun
+                
+                I have had many clients during the years of my studies, in one of my contracts i got to design and promote an event for 150 guests, i designed everything from the logo to the banners, bourcheres. It was a great experience. I have also Designed many posters. on my free time I do photography as a hobby. One of my Greatest skills is Adobe Photoshop and Illustrator.
+                I studied Life Drawing and Concept art at Algonquin College, I learnt how to draw scenes and models. So all around, I am a very open-minded and creative person! 
+                
+                I hope you enjoy my website and my featured works!</p>
+
+        </div>
+            <div class="img col-md-4 align-self-center">
+                <picture class="shawin-digitized-selfie"> 
+                    <img class="shawinsh" src="./images/shawin-digitized.jpg" alt="shawin digitized">
+                </picture>
+                
+            </div>
+    </div>
+    <!--WORKS SECTION-->
+    <div class="container" id="work">
+        <div class="work">
+           <div class="block">
+               <h2>Photoshop manipulation</h1>
+                <div class="blocks row">
+                    <img class="blocks-img col-md-8" src="./images/port-2020/photoshop-muni.jpg" alt="paradise photoshop">
+                        <div class="wk-text col-md-4 align-self-center">
+                            <h6 class="wk-title">Paradise</h6>
+                            <p class="p-tags">I created this photoshop Minuplation because i got inspired by the flim Avatar
+                                it took about 6 hours, back in Oct of 2015. 
+                            </p>
+                        </div>
+                </div>
+                <div class="blocks row">
+                    <img class="blocks-img col-md-8 order-last" src="./images/port-2020/photoshop-muni/one.jpg" alt="water city">
+                    <div class="wk-text col-md-4 align-self-center">
+                        <h6 class="wk-title">Water City</h6>
+                        <p class="p-tags">This Minuplation reminds me of the flims "Water-World" and "I am Legend"
+                            I created this back in 2015 once again, I don't quite remember how long it took me to create this. 
+                        </p>
+                    </div>
+                </div>
+                <div class="blocks row">
+                    <img class="blocks-img col-md-8" src="./images/port-2020/photoshop-muni/women-croped.jpg" alt="woman cropped">
+                    <div class="wk-text col-md-4 align-self-center">
+                        <h6 class="wk-title">Cropped Woman</h6>
+                        <p class="p-tags"> This was one of my firsts photoshop projects, back in 2013. I remember working so hard on this, I didnt have any experience. I just really
+                            loved what you could do with photoshop. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+           <div class="block">
+               <h2>Drawings</h1>
+                    <div class="blocks row ">
+                         <img class="blocks-img col-md-8 order-last" src="./images/port-2020/drawings/eye-ppd.jpg" alt="drawing of eye with woman inside">
+                        <div class="wk-text col-md-4 align-self-center">  
+                            <h6 class="wk-title">Postpartum Depression</h6>
+                            <p class="p-tags"> This one really means alot to me, I was inspired by an art work i saw online, and of course
+                                being a young mother, no one really see's your pain inside. This is one of my Favorite Piece's I've ever Drawn.  
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blocks row ">
+                        <img class="blocks-img col-md-8" src="./images/port-2020/drawings/silas-loon-portrait.jpg" alt="drawing of eye with woman inside">
+                        <div class="wk-text col-md-4 align-self-center">     
+                            <h6 class="wk-title">Young Boy Portrait</h6>
+                            <p class="p-tags"> Here's another one of my drawings, this one took about a month to complete. 
+                            but in reality, i worked on it one hour a day, or whenever i had time. I really wanted to just take my time and not feel rushed.
+                            </p>
+                        </div>
+                   </div>
+                    <div class="blocks left row ">
+                        <img class="blocks-img col-md-8 order-last" src="./images/port-2020/drawings/mendala.jpg" alt="drawing of eye with woman inside">
+                        <div class="wk-text col-md-4 align-self-center">   
+                                <h6 class="wk-title">Native Inspired Mendala</h6>
+                                <p class="p-tags"> Created in 2015, When 
+                                    I was enrolled in Design studies. 
+                            took about 20 hours to do. 
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="blocks chess-piece box">
+                        <h6 class="wk-title">Chess Pawn Original Design</h6>
+                        <p class="p-tags"> This is one of my big projects I did in Design Studies.
+                            I chose my favorite sketch, and then started a few mock up's to see if i could improve it in anyway.
+                            once that was completed, I commited on one design, and work endlessly until the due date. 
+                        </p>
+                        <div class="row">
+                            <img class="col-md-6 float-left" src="./images/port-2020/chess-piece/sketch.jpg" alt="chess sketch">
+                            <img class="col-md-6 float-right" src="./images/port-2020/chess-piece/mock-up.jpg" alt="chess mockup">
+                        </div>
+                        <div class="row">
+                            <img class="col-md-6 float-left" src="./images/port-2020/chess-piece/crop-1.jpg" alt="chess piece crop one">
+                            <img class="col-md-6 float-right" src="./images/port-2020/chess-piece/crop-2.jpg" alt="chess piece crop two">
+                        </div>                        
+                        <img src="./images/port-2020/chess-piece/full-iage.jpg" alt="full chess piece image">
+
+                    </div>
+            </div>
+           <div class="block">
+               <h2> Social Media Banners</h1>
+                <h6 class="wk-title">Just thought I'd throw some of my social media Design hobbies.</h6>
+
+               <div class="blocks twitter ">
+                    <img src="./images/port-2020/Header-Revan.png" alt="">
+                </div>
+                <div class="blocks twitter "> 
+                    <img src="./images/port-2020/bubble-header-pres.png" alt="">
+                </div>
+                <div class="blocks twitter ">
+                    <img src="./images/port-2020/pp-1.png" alt="">
+                </div>
+                
+        </div>
+        
+    </div>
+    <!-- CONTACT FORM SECTION-->
+    <div class="contact" id="contact">
+        <h2 class="contact-h2">Contact me for more info! </h6>
+        <form action="action_page.php">
+        
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Your email..">
+        
+            
+            <label for="subject">Message</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+        
+        </form>
+
+    </div>
+    <div class="top-button">
+        <a class="top-but" href="#header">BACK TO TOP</a>
+    </div>
+    <footer>
+        <p>copyright 2020 Designed by Shawin Shecapio</p>
+        <p>IMD Student 2020</p>
+    </footer>
+</body>
+</html>    

@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans:300,400,700&display=swap');
+/* Small devices (landscape phones, 576px and up */
+body {
+    box-sizing: border-box; 
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 100%;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+}
+h2 {
+    font-family: 'Lobster', cursive;
+}
+
+
+/* Styling NAV BAR */
+.nav {
+    width: 100%;
+    background: #3c0850;
+
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px;
+    text-decoration: none;
+    color: #f0fcff !important;
+}
+ul {
+    list-style: none;
+    display: none;
+    padding: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+
+}
+ul li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+ul a:hover {
+    background: #7ea9af;
+    text-decoration: none;
+}
+
+/* when hamburger menu is clicked the nev menu will callopse, 
+this took quite awhile to figure out */ 
+.active {
+    display: block;
+    text-align: center;
+}
+.toggle {
+    width: 100%;
+    padding:10px 20px;
+    background: #221c25;
+    text-align: right;
+    box-sizing: border-box;
+    color: #966bc7;
+    font-size: 25px;
+}
+
+
+/* styling MAIN, Specifically HEADER section */
+
+
+h1 {
+    display: none;
+    }
+
+.logo {
+    width: 15%;
+    height: auto;
+    display: block;
+    margin: 15px auto
+}
+h2 {
+    text-align: center;
+    border-bottom: solid 4px rgba(202, 139, 202, 0.404);
+    padding: 20px 10px;
+    margin-bottom: 0px;
+}
+
+/* stylng ABOUT ME SECTION GRADIENT BG */
+
+.main {
+    background: #cda0e5; /* Old browsers */
+    background: -moz-linear-gradient(top,  #cda0e5 0%, #8450c4 47%, #cc7dd1 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #cda0e5 0%,#8450c4 47%,#cc7dd1 100%); /* Chrome10-25,Safari5.1-6 */
+    padding: 10px 1px 20px;
+    margin: 0px;
+}
+
+h4 {
+    font-weight: 700 !important;
+    font-size: 32px !important;
+    text-align: center;
+    padding: 10px 10px;
+    color: #fff;
+}
+p {
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+    color: #ffffff;
+    font-size: 16px !important;
+}
+img {
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+}
+
+/* styling works  "p-tags" and "wk-title"  will remain hidden until the screen is past 770px */
+
+.p-tags {
+    display: none;
+}
+.wk-title {
+    display: none;
+}
+
+
+/* CONTACT FORM */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: rgb(106, 76, 175);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #db68af;
+}
+.top-button {
+    background-color: #db68af;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top-but {
+    font-weight: 300;
+    padding: 2px 1px;
+
+}
+/* FOOOOOOTTERRRR MOBILE */
+footer {
+    width: 100%;
+    height: 200px;
+    margin: 20px 0px 0px;
+    background: #240033;
+}
+footer p {
+    text-align: center;
+    padding:100px;
+
+}
+
+
+
+
+
+@media (min-width: 769px) {
+     
+    .toggle {
+        display: none;
+    }
+      /* Styling NAV BAR */
+    .nav {
+        width: 100%;
+        background: #240033;
+    }
+    a {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 10px 25px;
+        text-decoration: none;
+        color: #d7f6ff !important;
+    }
+    ul {
+        list-style: none;
+        display: block;
+        padding: 20px;
+        padding-bottom: 10px;
+        width: 100%;
+        
+    }
+
+    ul li {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    ul a:hover {
+        background: #7ea9af;
+        text-decoration: none;
+    }
+
+
+    /* stlying header using bootsrap */
+   .media {
+       max-height: 400px;
+       width: 100%;
+   }
+    .logo { 
+        max-width: 200px;
+        margin: 5px 30px;
+        padding: 0px 15px;
+    }
+    h1 {
+        display: inline-block;
+
+    }
+  
+
+    .head-text {
+        padding: 10px 5px !important; }
+         */
+
+    /* ABOUT ME SECTION GRADIENT BG */
+    .main {
+        margin: 10px 25px;
+    }
+
+    /* STYLING WORKS*/
+
+    .container {
+        background-color: #f2f2f2;
+        width: 100%;
+        margin: 5px 0px;
+    }
+    .wk-title {
+        color: #262626;
+        font-size: 20px;
+        display: block;
+        text-align: center;
+    }
+    .p-tags {
+        color: #262626;
+        display: block;
+        padding: 10px 0px;
+        text-align: start;
+    }
+    /* chese piece h6 needs more padding at top */
+    .chess-piece h6 {
+    padding-top: 25px;
+    }
+
+ /* CONTACT FORM STYLING */
+
+    .contact-h2 {
+     text-align: center;
+     font-size: 30px;
+     border-top: solid 4px #db68af;
+     padding: 10px 25px;
+     margin-top: 50px;
+    }
+    .top-button button {
+        width: 100%;
+        padding:10px 20px;
+        text-align: right;
+        box-sizing: border-box;
+        color: #966bc7;
+        font-size: 25px;
+    }
+
+    /* FOOTEEEEERR */
+    footer {
+        width: 100%;
+        height: 200px;
+        margin: 20px 0px 0px;
+        background: #240033;
+    }
+    footer p {
+        text-align: center;
+        padding:100px;
+    
+    }
+
+
+
+} 
+
+
+/* Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
