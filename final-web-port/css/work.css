@@ -1,0 +1,107 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgb(26, 26, 26) !important;
+    color: rgb(228, 228, 228) !important;
+    max-width: 1024px;
+
+}
+
+/* Styling NAV BAR */
+
+nav {
+    width: 100%;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: rgb(39, 39, 39);
+  }
+  
+a {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px;
+    text-decoration: none;
+    color: #f0fcff !important;
+}
+.menu li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+ul a:hover {
+    background: #a77eaf;
+    text-decoration: none;
+}
+
+.gallery
+.block {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+ img {
+    display:block;
+    margin: 25px auto;
+    width: 95%;
+    height: auto;
+}
+
+@media screen and (min-width: 768px) {
+ /* NAV BAR AFTER 768px */
+    .nav {
+        width: 100%;
+        background: #282828;
+    }
+    a {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 10px;
+        text-decoration: none;
+        color: #f0fcff !important;
+    }
+    ul {
+        list-style: none;
+        display: block;
+        padding: 20px;
+        padding-bottom: 10px;
+        width: 100%;
+        
+    
+    }
+    .menu li {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    ul a:hover {
+        background: #a57eaf;
+        text-decoration: none;
+    } 
+    
+    /* SYTLING NAV, i was really ambitious about making a image gallery for each project but my skills 
+    are not at that level so i stuck with what i know. */
+    .gallery
+    .block {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      align-items: center;
+ 
+    }
+     img {
+        display: block;
+        margin: 5px auto;
+        width: auto;
+        max-width: 400px;
+        height: auto;
+        max-height: 300px;
+        padding: 15px 25px;
+    }
+    
+}    

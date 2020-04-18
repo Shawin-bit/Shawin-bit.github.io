@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,700;0,900;1,500&display=swap');
+
+body {
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgb(26, 26, 26) !important;
+    color: rgb(228, 228, 228) !important;
+
+}
+
+/* Styling NAV BAR */
+
+nav {
+    width: 100%;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: rgb(39, 39, 39);
+  }
+  
+a {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px;
+    text-decoration: none;
+    color: #f0fcff !important;
+}
+.menu li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+ul a:hover {
+    background: #a77eaf;
+    text-decoration: none;
+}
+
+
+
+/* STYLING HEADER */
+ #header {
+     width: 100%;;
+    margin: 10px 25px;
+ }
+
+ .logo{
+    width: 100px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+.head-text h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 15px;  
+    color:#e6e6e6
+}
+h2 {
+    text-align: center;
+}
+
+/* STYLING MY WORK, ALL IMAGES HAVE BEEN SIZED DOWN TO 700x700px, For beauty reasons. 
+I mainly used SCSS for this, just because it was tidy-er */
+
+.container {
+   margin:10px 25px;
+}
+
+/* breakpoint for tablet size, going to be using 2 colum to display my work
+I will mostly use CSS for grid cause its easier for me*/
+
+@media screen and (min-width: 768px) {
+   
+    
+    .nav {
+        width: 100%;
+        background: #282828;
+    }
+    a {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 10px;
+        text-decoration: none;
+        color: #f0fcff !important;
+    }
+    ul {
+        list-style: none;
+        display: block;
+        padding: 20px;
+        padding-bottom: 10px;
+        width: 100%;
+        
+    
+    }
+    .menu li {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    ul a:hover {
+        background: #a57eaf;
+        text-decoration: none;
+    }  
+ 
+    /* STYLING GRID WORK */
+    .container {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .block {
+        display: block;
+        width: 40%;
+
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .container 
+    .block {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .block {
+        width: 33%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    
+    .container 
+    .block {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .block {
+        width: 25%;
+    }
+}

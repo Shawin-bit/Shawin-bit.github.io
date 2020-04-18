@@ -1,0 +1,116 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgb(26, 26, 26) !important;
+    color: rgb(228, 228, 228) !important;
+
+}
+
+/* Styling NAV BAR */
+
+nav {
+    width: 100%;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: rgb(39, 39, 39);
+  }
+  
+a {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px;
+    text-decoration: none;
+    color: #f0fcff !important;
+}
+.menu li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+ul a:hover {
+    background: #a77eaf;
+    text-decoration: none;
+}
+
+/* styling main section */
+.main {
+    background-color: rgb(59, 59, 59);
+    padding: 10px 1px 20px;
+    margin: 0px;
+}
+
+h4 {
+    font-weight: 900 !important;
+    text-transform: uppercase;
+    font-size: 32px !important;
+    text-align: center;
+    padding: 10px 10px;
+    color: rgb(248, 190, 230);
+}
+p {
+    width: 80%;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+    color: #ffffff;
+    font-size: 16px !important;
+}
+img {
+    width: 90%;
+    height: auto;
+    margin: 25px auto;
+    display: block;
+}
+
+
+
+@media screen and (min-width: 768px) {
+   
+    /* NAV AFTER 768px */ 
+    .nav {
+        width: 100%;
+        background: #282828;
+    }
+    a {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 10px;
+        text-decoration: none;
+        color: #f0fcff !important;
+    }
+    ul {
+        list-style: none;
+        display: block;
+        padding: 20px;
+        padding-bottom: 10px;
+        width: 100%;
+        
+    
+    }
+    .menu li {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    ul a:hover {
+        background: #a57eaf;
+        text-decoration: none;
+    }  
+
+    /* styling main after 768px, i want the paragraph and img side by side */
+    
+    .main {
+        margin: 15px 25px;
+    }
+    .img {
+        width: 90%;
+
+    }
+
+}
